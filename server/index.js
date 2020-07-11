@@ -28,7 +28,7 @@ mongoose.connect(config.mongoURI,
   .catch(err => console.log(err));
 };
 
-(db_connect());
+db_connect();
 
 
 app.use(cors())
