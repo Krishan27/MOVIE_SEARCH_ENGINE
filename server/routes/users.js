@@ -4,7 +4,6 @@ const { User } = require("../models/user");
 
 const { auth } = require("../middleware/auth");
 
-const { connect } = require('../index');
 
 
 
